@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <!-- <div class="logo">
+            <img src="assets/logo.png" alt="Logo">
+        </div> -->
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="toggle-mode">
+            <div class="day-container">
+                <img src="assets/day.png" alt="Day">
+            </div>
+            <div class="night-container">
+                <img src="assets/night.png" alt="Night">
+            </div>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="info-container">
+            <h1>Welcome to My Portfolio !</h1>
+            <p>Hello! I am Bhushan Koli, a passionate web developer.</p>
+            <div class="social-icons">
+                <a href="https://github.com/Bhushan-0"><img src="assets/github.png" alt="Social Icon"></a>
+
+                <a href="https://linkedin.com/in/bhushan-koli-8856362b1"><img src="assets/LinkedIn.png" alt="Social Icon"></a>
+                <!-- <a href="#"><img src="assets/facebook.png" alt="Social Icon"></a> -->
+            </div>
+            <!-- <div class="download-resume">
+                <button>
+                    <a href="assets/resum.pdf" target="_blank">Download Resume</a>
+                </button>
+            </div> -->
+        </div>
+        <div class="profile-image-container">
+            <img src="assets/profile.png" alt="Profile image" class="profile-img">
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="gif-container">
+            <video src="assets/about.mp4" loop="" autoplay=""></video>
+        </div>
+        
+        
+        
+        <div class="about-info-container">
+            <h2>About Me</h2>
+            <p>
+                I am Bhushan Koli and my passion lies in creating efficient and user-friendly websites. 
+                I am equipped with the tools to bring innovative ideas to life. In addition to my technical skills, I am a team player and a quick learner. I thrive in a collaborative
+                environment and enjoy working with others to achieve a common goal.
+            </p>
+            <button>Read More</button>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div>
+                <p>HTML / CSS</p>
+                <div class="html-container progress-container">
+                    <div class="progress-bar"><span>85%</span></div>
+                </div>
+            </div>
+            <div>
+                <p>JAVASCRIPT</p>
+                <div class="js-container progress-container">
+                    <div class="progress-bar"><span>85%</span></div>
+                </div>
+            </div>
+            <div>
+                <p>REACT.JS</p>
+                <div class="react-container progress-container">
+                    <div class="progress-bar"><span>80%</span></div>
+                </div>
+            </div>
+            <div>
+                <p>EXPRESS.JS</p>
+                <div class="express-container progress-container">
+                    <div class="progress-bar"><span>75%</span></div>
+                </div>
+            </div>
+            <div>
+                <p>NODE.JS</p>
+                <div class="node-container progress-container">
+                    <div class="progress-bar"><span>80%</span></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="certification-cards">
+            <div class="card">
+                <h3>FULL STACK DEVELOPMENT TRAINING CERTIFICATE OF COMPLITION </h3>
+                <p>Complete Full Stack Development Training Certificate HTML,CSS,
+                    TAILWIND,JAVASCRIPT,
+                    DSA,REACT.JS, NODE.JS,
+                    EXPRESS.JS,MONGODB language by INTERNSHALA</p>
+                <button><a href="assets/fsd.pdf" target="_blank">View certificate</a></button>
+            </div>
+            <div class="card">
+                <h3>Data Analytics By Develearn Certificate Completion</h3>
+                <p>Complete the Data Analytics by Develearn in collaboration with Pratap College Amalner Sponsored by RUSA word powerpoint </p>
+                <button><a href="assets/da.pdf" target="_blank">View certificate</a></button>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-cards">
+            <div class="card">
+                <a href="https://youtube-clone-frontend-bkxd.onrender.com">Youtube  Clone</a>
+                <!-- <h3>Youtube Clone</h3> -->
+            </div>
+            <div class="card">
+                
+                <a href= "https://bhushan-0.github.io/Weather-Forecast-Application-Development/">Weather-Forecast-Application-Development</a>
+                <h3></h3>
+            </div>
+            <!-- <div class="card">
+                <h3>News app →</h3>
+            </div> -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit">
+            <div class="name-container">
+                <input type="text" name="firstName" placeholder="First Name" required="">
+                <input type="text" name="lastName" placeholder="Last Name" required="">
+            </div>
+            <input type="email" name="email" placeholder="E-Mail Address" required="">
+            <textarea name="message" placeholder="Your Message" required="" rows="10"></textarea>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-contact">
+            <button>
+                <a href="tel:+918421136112" target="_blank"><img class="call-icon" src="assets/call.png" alt="call"></a>
+            </button>
+            <button>
+                <a href="mailto:Bkoli1252@gmail.com" target="_blank"><img class="email-icon" src="assets/email.png" alt="email"></a>
+            </button>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
